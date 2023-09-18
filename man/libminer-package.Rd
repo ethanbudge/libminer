@@ -8,6 +8,14 @@
 \description{
 Provides functions for learning about your R libraries, and the packages they contain.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/ethanbudge/libminer}
+  \item Report bugs at \url{https://github.com/ethanbudge/libminer/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Ethan Budge \email{ethanbudge1999@gmail.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
 
