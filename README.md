@@ -4,6 +4,8 @@
 # libminer
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/ethanbudge/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ethanbudge/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to test package development for a workshop.
@@ -26,13 +28,13 @@ This is a basic example which shows you how to solve a common problem:
 ``` r
 library(libminer)
 ## basic example code
-lib_summary()
+lib_summary(sizes = TRUE)
 #>                                                                                         Library
 #> 1                          /Library/Frameworks/R.framework/Versions/4.2-arm64/Resources/library
-#> 2 /private/var/folders/m_/j4nrbkts2t51lhpxncv3l1mr0000gn/T/RtmpyRPP1M/temp_libpath16797612b6cc9
-#>   n_packages
-#> 1        391
-#> 2          1
+#> 2 /private/var/folders/m_/j4nrbkts2t51lhpxncv3l1mr0000gn/T/RtmpyRPP1M/temp_libpath16797500dab26
+#>   n_packages   lib_size
+#> 1        391 1783065351
+#> 2          1      37444
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`?
